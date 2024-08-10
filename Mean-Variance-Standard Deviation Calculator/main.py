@@ -1,8 +1,9 @@
-# This entrypoint file to be used in development. Start by reading README.md
+# Entry point for development. Begin by reviewing README.md for instructions.
 import mean_var_std
 from unittest import main
 
-print(mean_var_std.calculate([0,1,2,3,4,5,6,7,8]))
+# Example execution of the perform_calculations function
+print(mean_var_std.perform_calculations([0, 1, 2, 3, 4, 5, 6, 7, 8]))
 
-# Run unit tests automatically
+# Automatically execute unit tests
 main(module='test_module', exit=False)
